@@ -64,24 +64,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "customer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::customer.customer",
-      "mappedBy": "users_permissions_user"
-    },
-    "agent": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::agent.agent",
-      "mappedBy": "users_permissions_user"
-    },
-    "driver": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::driver.driver",
-      "mappedBy": "users_permissions_user"
     }
   }
 }
